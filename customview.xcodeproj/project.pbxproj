@@ -14,6 +14,10 @@
 		18BFDB28226304A3002AA003 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18BFDB26226304A3002AA003 /* LaunchScreen.storyboard */; };
 		18BFDB33226304A3002AA003 /* customviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BFDB32226304A3002AA003 /* customviewTests.swift */; };
 		18BFDB3E226304A3002AA003 /* customviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BFDB3D226304A3002AA003 /* customviewUITests.swift */; };
+		18BFDB51226305DB002AA003 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BFDB4C226305DA002AA003 /* CustomView.swift */; };
+		18BFDB52226305DB002AA003 /* CustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18BFDB4D226305DA002AA003 /* CustomView.xib */; };
+		18BFDB53226305DB002AA003 /* DesignView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BFDB4F226305DA002AA003 /* DesignView.swift */; };
+		18BFDB54226305DB002AA003 /* AutoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BFDB50226305DB002AA003 /* AutoLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		18BFDB39226304A3002AA003 /* customviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = customviewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18BFDB3D226304A3002AA003 /* customviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customviewUITests.swift; sourceTree = "<group>"; };
 		18BFDB3F226304A3002AA003 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18BFDB4C226305DA002AA003 /* CustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		18BFDB4D226305DA002AA003 /* CustomView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomView.xib; sourceTree = "<group>"; };
+		18BFDB4F226305DA002AA003 /* DesignView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignView.swift; sourceTree = "<group>"; };
+		18BFDB50226305DB002AA003 /* AutoLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +108,9 @@
 				18BFDB1D226304A0002AA003 /* AppDelegate.swift */,
 				18BFDB1F226304A0002AA003 /* ViewController.swift */,
 				18BFDB21226304A0002AA003 /* Main.storyboard */,
+				18BFDB50226305DB002AA003 /* AutoLayout.swift */,
+				18BFDB4B226305DA002AA003 /* CustomView */,
+				18BFDB4E226305DA002AA003 /* DesignView */,
 				18BFDB24226304A3002AA003 /* Assets.xcassets */,
 				18BFDB26226304A3002AA003 /* LaunchScreen.storyboard */,
 				18BFDB29226304A3002AA003 /* Info.plist */,
@@ -123,6 +134,23 @@
 				18BFDB3F226304A3002AA003 /* Info.plist */,
 			);
 			path = customviewUITests;
+			sourceTree = "<group>";
+		};
+		18BFDB4B226305DA002AA003 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				18BFDB4C226305DA002AA003 /* CustomView.swift */,
+				18BFDB4D226305DA002AA003 /* CustomView.xib */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		18BFDB4E226305DA002AA003 /* DesignView */ = {
+			isa = PBXGroup;
+			children = (
+				18BFDB4F226305DA002AA003 /* DesignView.swift */,
+			);
+			path = DesignView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +258,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18BFDB28226304A3002AA003 /* LaunchScreen.storyboard in Resources */,
+				18BFDB52226305DB002AA003 /* CustomView.xib in Resources */,
 				18BFDB25226304A3002AA003 /* Assets.xcassets in Resources */,
 				18BFDB23226304A0002AA003 /* Main.storyboard in Resources */,
 			);
@@ -256,7 +285,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18BFDB53226305DB002AA003 /* DesignView.swift in Sources */,
+				18BFDB51226305DB002AA003 /* CustomView.swift in Sources */,
 				18BFDB20226304A0002AA003 /* ViewController.swift in Sources */,
+				18BFDB54226305DB002AA003 /* AutoLayout.swift in Sources */,
 				18BFDB1E226304A0002AA003 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
